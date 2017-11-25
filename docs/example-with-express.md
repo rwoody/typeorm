@@ -195,6 +195,7 @@ Let's change `src/app.ts`:
 import * as express from "express";
 import {Request, Response} from "express";
 import * as bodyParser from  "body-parser";
+import 'reflect-metadata';
 import {createConnection} from "typeorm";
 import {User} from "./User";
 
